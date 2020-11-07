@@ -3,7 +3,7 @@ const logger = require("morgan");
 const mongoose = require("mongoose");
 
 var PORT = process.env.PORT || 8080;
-var db = require("./models");
+var db = require("./Models");
 
 var app = express();
 app.use(express.urlencoded({ extended: true }));
@@ -14,7 +14,7 @@ require("./routes/html-routes.js")(app);
 require("./routes/api-routes.js")(app);
 
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/workout",
+  process.env.MONGODB_URI || "mongodb://localhost/workoutdb",
   { useNewUrlParser: true }
 );
 
