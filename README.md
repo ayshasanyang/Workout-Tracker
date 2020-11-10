@@ -1,5 +1,5 @@
 # Workout-Tracker
-This is a Node.js exercise Tracking app that allows user to track their daily workouts. 
+This is a Node.js exercise Tracking app that allows the user to track their daily workouts.  
 
 [Deployed App in Heroku](https://stark-ravine-88029.herokuapp.com/)
 
@@ -16,7 +16,7 @@ This is a Node.js exercise Tracking app that allows user to track their daily wo
 
 ## Description
 
-This app allows user to add new workout or continue with the same type of exercise. Users can log multiple exercises
+This app allows users to add a new workout or continue with the existing one. Users can log multiple exercises and view the dashboard for the summary graph.
 
 ## Installation
 
