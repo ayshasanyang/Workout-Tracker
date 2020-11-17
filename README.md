@@ -24,7 +24,7 @@ This app allows users to add a new workout or continue with the existing one. Us
 
 Open your Bash/Terminal an type the following command:
 ```
-git clone https://github.com/ayshasanyang/Workout-Tracker
+git clone git@github.com:ayshasanyang/Workout-Tracker.git
 ```
 2. Open the project folder in Visual Studio Code can be found [here](https://code.visualstudio.com/download) and type the following command to install the dependencies.
 ```
